@@ -14,7 +14,6 @@ public class Student {
     private String name;
     private double GPA;
     private String email;
-    private int ID;
 
     /**
      * Get the value of name
