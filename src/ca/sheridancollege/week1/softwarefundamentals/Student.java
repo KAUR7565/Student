@@ -15,6 +15,9 @@ public class Student {
     private double GPA;
     private String email;
      private int grades;
+     private String status;
+
+    
     /**
      * Get the value of name
      
@@ -46,6 +49,14 @@ public class Student {
      */
     public String getEmail() {
         return email;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
 }
